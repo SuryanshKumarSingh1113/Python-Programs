@@ -19,3 +19,32 @@ print(sports)
 list=["cricket,football,volleyball,tennis"]
 sports=",".join(list)
 print(sports)
+
+
+# strip()
+# Removes extra spaces from the beginning and end of a string.
+
+text = "  hello  "
+print(text.strip())
+
+
+
+# startswith() and endswith()
+# Checks whether a string starts or ends with a given value.
+
+email = "test@gmail.com"
+ 
+print(email.startswith("test"))
+print(email.endswith(".com"))
+
+
+# String Concatenation
+# Strings can be combined using the + operator.
+
+first_name = "Suryansh"
+second_name= "Singh"
+ 
+result = first_name + " kumar " + second_name
+print(result)
+
+
