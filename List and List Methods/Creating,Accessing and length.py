@@ -1,7 +1,7 @@
                                              #List & List Methods in Python
 # Lists are used to store multiple values in a single variable.
 # They are one of the most flexible and commonly used data structures in Python.
-# A list can store different types of data and can be modified after creation(ie Thay are mutable)
+# A list can store different types of data and can be modified after creation(ie They are mutable)
 
 #creating a list:-
 # Lists are created using square brackets []
