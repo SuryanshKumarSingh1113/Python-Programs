@@ -10,6 +10,6 @@ print(position)
 # Counts how many times a value appears in the list.
 
 items = ["apple", "banana", "apple"]
-count = items.count("apple")
+count = items.count("apple")                 #we can also write print(items.count("apple"))
 print(count)
 
