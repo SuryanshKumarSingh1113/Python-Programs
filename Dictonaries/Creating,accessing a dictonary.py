@@ -35,7 +35,7 @@ print(student["age"])
 
 print(student.get("city"))
 print(student.get("email"))
-
+print(student.get("age"))
 
 
 
