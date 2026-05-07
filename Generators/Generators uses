@@ -1,0 +1,37 @@
+# When Generators Are Useful
+# Generators are useful when:
+
+# Data is large
+# Data comes from files
+# Data is processed step by step
+# You only need one value at a time
+# Example:
+
+def read_lines(filepath):
+    with open(filepath) as file:
+        for line in file:
+            yield line.strip()
+
+# next Function
+# You can get the next value from a generator using next().
+
+gen = (x*x for x in range(3))
+print(next(gen))  # 0
+print(next(gen))  # 1
+print(next(gen))  # 4
+
+# Important Limitation
+# Generators can be used only once.
+
+gen = (x for x in range(3))
+ 
+print(list(gen))
+print(list(gen))
+
+# The second result will be empty.
+
+# Key Takeaway
+# Generators produce data lazily
+# They save memory
+# They fit well with data workflows
+# Use them when you do not need all data at once
