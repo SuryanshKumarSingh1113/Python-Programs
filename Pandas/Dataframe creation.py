@@ -9,6 +9,7 @@ data = {
  
 df = pd.DataFrame(data)
 print(df)
+print(df.dtypes)
 
 # Each key becomes a column.
 
